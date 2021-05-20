@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 require "faker"
 Sub.destroy_all
-Topic.destroy_all
+
 10.times do
   x = Faker::Verb.simple_present
   y = Faker::Verb.ing_form
